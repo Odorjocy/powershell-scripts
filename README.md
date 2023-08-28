@@ -29,3 +29,7 @@ Usually medium size (50-300 lines)  scripts which perform specific tasks.
 |RT|Reporting & Tool|
 
 These are the main indicators of the behavior of the scripts. The **R** generates a report and **does not make any changes**. Scripts with **T** perform a certain task and modify data. The mixed **RT** scripts capable of doing both actions, usually tasks that need to be verified before being performed.
+
+## Recursive subordinates finder - R-RecursiveSubordinateFinder.ps1
+
+This script queries all the users from the hierarchy tree starting from a given manager all the way down.
